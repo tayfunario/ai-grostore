@@ -189,7 +189,7 @@ function Header({ isFixed = false, fixedStyles = {}, handleProfile, handleDarkMo
                 <div className='mx-auto bg-white h-full dark:bg-gray-800 px-5 py-2 grid place-items-center grid-cols-3 grid-rows-2 lg:flex lg:justify-between lg:items-center'>
 
                     {/* title */}
-                    <Link to='/'>
+                    <Link to='/ai-grostore'>
                         <h1 className="order-first lg:order-none h-14 lg:pt-0 pt-1 lg:text-5xl text-4xl italic font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 text-transparent">grostore</h1>
                     </Link>
 

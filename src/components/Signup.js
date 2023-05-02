@@ -65,7 +65,7 @@ function SignUp() {
                         displayName: name
                     })
                         .then(() => {
-                            navigate('/');
+                            navigate('/ai-grostore');
                         })
                 }).catch((error) => {
                     const alert = document.getElementById('alert');
@@ -115,7 +115,7 @@ function SignUp() {
                     </div>
                     <button className='block mx-auto bg-blue-500 hover:bg-blue-700' onClick={(e) => { e.preventDefault(); signUp(); }}>Sign Up</button>
                 </form>
-                <Link to='/'>
+                <Link to='/ai-grostore'>
                     <button className='block mx-auto mt-2 bg-orange-500 hover:bg-orange-600'>Go to shop</button>
                 </Link>
             </div>

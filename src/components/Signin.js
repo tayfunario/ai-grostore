@@ -52,7 +52,7 @@ function SignIn() {
     const signIn = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(() => {
-                navigate('/');
+                navigate('/ai-grostore');
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -99,7 +99,7 @@ function SignIn() {
                         </Link>
                     </div>
                 </form>
-                <Link to='/'>
+                <Link to='/ai-grostore'>
                     <button className='block mx-auto mt-2 bg-orange-500 hover:bg-orange-600'>Go to shop</button>
                 </Link>
             </div>

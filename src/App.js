@@ -33,7 +33,7 @@ function App() {
     <div className='w-full'>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/ai-grostore" element={<Main />} />
           <Route path="/category" element={<Category />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />

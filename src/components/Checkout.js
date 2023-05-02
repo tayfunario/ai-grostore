@@ -50,7 +50,7 @@ export default function Detail() {
                 setUser(user.displayName);
                 setUserID(user.uid);
             } else {
-                navigate('/')
+                navigate('/ai-grostore')
             }
         });
 
@@ -235,7 +235,7 @@ export default function Detail() {
         push(orderRef, order);
         notify()
         dispatch(clearCart())
-        setTimeout(() => navigate('/'), 1000)
+        setTimeout(() => navigate('/ai-grostore'), 1000)
     }
 
     const notify = () => toast.success("Your order has been received", {

@@ -52,7 +52,7 @@ export default function Detail() {
                 });
             } else {
                 setUser(null);
-                navigate('/');
+                navigate('/ai-grstore');
             }
         });
 
@@ -91,7 +91,7 @@ export default function Detail() {
     const handleSignOut = () => {
         signOut(auth).then(() => {
             setUser(null);
-            navigate('/');
+            navigate('/ai-grostore');
             dispatch(clearCart());
         })
     }

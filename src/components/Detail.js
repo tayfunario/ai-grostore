@@ -91,7 +91,7 @@ export default function Detail() {
                             whileTap={{ scale: 0.9 }}
                             transition={{ type: "spring", stiffness: 500, damping: 25 }}
                         >
-                            ASD:aD:sa:D
+                            Add to cart
                         </motion.button>
                     </div>
                 </div>

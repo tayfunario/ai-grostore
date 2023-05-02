@@ -35,7 +35,7 @@ export default function Detail() {
             }
         });
 
-        if(document.querySelector('body').classList.contains('dark')) {
+        if (document.querySelector('body').classList.contains('dark')) {
             setDarkMode(true);
             document.querySelector('#switchCheckbox').checked = true;
         }
@@ -108,8 +108,6 @@ export default function Detail() {
                                             </div>
 
                                             <div className="absolute flex gap-5 right-5 items-end text-lg">
-                                                <span className='text-2xl'>Total: <span className='font-bold'>${item.price * item.quantity}</span></span>
-
                                                 <div className='flex flex-col font-extrabold text-black dark:text-gray-100'>
                                                     <button className="px-2 py-1" onClick={() => handleAddToCart(item)}>
                                                         <AiOutlinePlus className='text-gray-800 dark:text-gray-200' />

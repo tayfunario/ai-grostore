@@ -86,7 +86,7 @@ export default function Detail() {
                     <h2 className='text-5xl text-blue-700 font-light underline underline-offset-4 decoration-2'>Your Cart</h2>
                     <div>
                         <button className='bg-red-600 hover:bg-red-500 mr-2' onClick={handleClearCart}><BsFillTrashFill className='inline' /> Clear cart</button>
-                        <Link to='/'>
+                        <Link to='/ai-grostore'>
                             <button className='bg-blue-700 hover:bg-blue-500 mt-2'>Return to shop</button>
                         </Link>
                     </div>

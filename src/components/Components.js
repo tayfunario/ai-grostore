@@ -178,7 +178,7 @@ function Header({ isFixed = false, fixedStyles = {}, handleProfile, handleDarkMo
         setSearch(text);
     }
 
-    const searchStyles = (search && isFocused) ? 'h-auto' : 'h-0 overflow-hidden'
+    const searchStyles = (search && isFocused) ? 'h-auto' : 'h-0 overflow-hidden border-none'
 
     return (
         <header>
@@ -196,15 +196,15 @@ function Header({ isFixed = false, fixedStyles = {}, handleProfile, handleDarkMo
                     {/* search input */}
                     <div className="order-4 col-span-2 sm:place-self-center place-self-stretch lg:order-none flex items-center">
                         <input type="text" onChange={handleSearch} placeholder="Lay's Potato Chips $1.99" id='searchInput' className="relative w-80 px-1 py-2 text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-700 outline-none rounded-r-none border-2 border-r-0 border-blue-500 focus:ring focus:ring-purple-300" />
-                        <div className={`${searchStyles} result-div absolute lg:top-[4.5rem] top-24 z-50 w-80 divide-y-2 bg-gray-200`}>
+                        <div className={`${searchStyles} result-div absolute lg:top-[4.5rem] top-24 z-50 w-80 divide-y-2 bg-gray-100 dark:bg-gray-600 border-2 border-purple-700`}>
                             {searchResults.slice(0, 4).map(product =>
                                 <Link key={product.id} to='/detail' state={product} className='result-div' >
-                                    <div className={`result-div flex justify-between items-center h-20 pr-5 bg-gray-200 hover:bg-gray-300`}>
+                                    <div className={`result-div flex justify-between items-center h-20 m-1 pr-5 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300`}>
                                         <div className='result-div flex items-center'>
                                             <img src={product.img} className='result-div inline w-16 h-16' />
-                                            <p className='result-div inline text-base'>{product.name}</p>
+                                            <p className='result-div inline dark:text-gray-100 text-base'>{product.name}</p>
                                         </div>
-                                        <p className='result-div text-2xl font-bold'>${product.price}</p>
+                                        <p className='result-div text-2xl dark:text-gray-100 font-bold'>${product.price}</p>
                                     </div>
                                 </Link>)}
                         </div>

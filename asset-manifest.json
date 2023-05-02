@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ai-grostore/static/css/main.355ce69c.css",
-    "main.js": "/ai-grostore/static/js/main.56add693.js",
+    "main.css": "/ai-grostore/static/css/main.47faa975.css",
+    "main.js": "/ai-grostore/static/js/main.8b8ea7c5.js",
     "static/media/img4.png": "/ai-grostore/static/media/img4.cb5f10b5e8f2237ffc2b.png",
     "static/media/img1.png": "/ai-grostore/static/media/img1.01ba3f9a420cc9a9eb05.png",
     "static/media/img2.png": "/ai-grostore/static/media/img2.b84e0d2e01e42ae23119.png",
     "static/media/img3.png": "/ai-grostore/static/media/img3.4c0617c92254625ecbef.png",
     "index.html": "/ai-grostore/index.html",
-    "main.355ce69c.css.map": "/ai-grostore/static/css/main.355ce69c.css.map",
-    "main.56add693.js.map": "/ai-grostore/static/js/main.56add693.js.map"
+    "main.47faa975.css.map": "/ai-grostore/static/css/main.47faa975.css.map",
+    "main.8b8ea7c5.js.map": "/ai-grostore/static/js/main.8b8ea7c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.355ce69c.css",
-    "static/js/main.56add693.js"
+    "static/css/main.47faa975.css",
+    "static/js/main.8b8ea7c5.js"
   ]
 }
